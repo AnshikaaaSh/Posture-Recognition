@@ -1,0 +1,12 @@
+// variable declaration
+let actor_img;
+let specs, smoke;
+
+// inside setup function
+actor_img = loadImage('images/shahrukh.png');
+specs=loadImage('images/spects.png');
+smoke=loadImage('images/smoke.png');
+
+
+//under for loop
+image(spects, singlePose.nose.x-45, singlePose.nose.y-60, 100,100);
